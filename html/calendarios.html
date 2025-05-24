@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../styles/style-index.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="../js/script.js" type="module"></script>
+    <title>Calendários - AgroUnip</title>
+</head>
+
+<body>
+    <!--  -->
+    <div class="navbar" id="navbar">
+        <a href="../index.html#" style="all: unset;">
+            <div class="divLogo" id="logoo">
+                AGR<div class="logoUnip">UNIP</div>
+            </div>
+        </a>
+        <div class="navbar-desktop">
+            <a href="../index.html#" id="inicio">Início</a>
+            <a href="../index.html#destaques">Notícias</a>
+            <div class="dropdown">
+                <button class="dropbtn">Para o agricultor
+                    <i class="fa fa-caret-down"></i>
+                    <i class="fa fa-caret-up"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="../html/calendarios.html">Calendários</a>
+                    <a href="../index.html#culturas">Culturas</a>
+                    <a href="../html/tecnicas.html">Técnicas</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navbar do Celular -->
+        <div class="navbar-mobile">
+            <button class="w-nav-control fa fa-navicon" id="btnMenu"></button>
+            <div class="dropdown-content" id="ddContent" style="display: none;">
+                <a href="../index.html#destaques">Notícias</a>
+                <a href="../html/calendarios.html">Calendários</a>
+                <a href="../index.html#culturas">Culturas</a>
+                <a href="../html/tecnicas.html">Técnicas</a>
+            </div>
+        </div>
+    </div>
+    <main class="main">
+
+        <div id="calendario">
+            <h1>Época de plantio para cada região do país</h1>
+            <p>Para facilitar a vida do produtor agrícola, abaixo preparamos tabelas completas com indicação de época de
+                plantio de diversas culturas. Confira.</p>
+            <div id="tabelas">
+                <h2>Região Sul</h2>
+                <table>
+                    <tr>
+                        <th>
+                            Cultivo
+                        </th>
+                        <th>
+                            Plantio
+                        </th>
+                        <th>
+                            Colheita
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            Ameixa
+                        </td>
+                        <td>
+                            Julho
+                        </td>
+                        <td>
+                            Setembro – Outubro
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Amendoim
+                        </td>
+                        <td>
+                            Setembro
+                        </td>
+                        <td>
+                            Janeiro – Abril
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Arroz
+                        </td>
+                        <td>
+                            Setembro
+                        </td>
+                        <td>
+                            Novembro – Abril
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Aveia
+                        </td>
+                        <td>
+                            Abril
+                        </td>
+                        <td>
+                            Outubro – Dezembro
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Café
+                        </td>
+                        <td>
+                            Setembro
+                        </td>
+                        <td>
+                            Maio – Novembro
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Cítricos
+                        </td>
+                        <td>
+                            Outubro
+                        </td>
+                        <td>
+                            Dezembro – Março
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Erva Mate
+                        </td>
+                        <td>
+                            Abril
+                        </td>
+                        <td>
+                            Março – Agosto
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Feijão
+                        </td>
+                        <td>
+                            Agosto
+                        </td>
+                        <td>
+                            Outubro – Março
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Fumo
+                        </td>
+                        <td>
+                            Agosto
+                        </td>
+                        <td>
+                            Dezembro – Fevereiro
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Maçã
+                        </td>
+                        <td>
+                            Dezembro
+                        </td>
+                        <td>
+                            Janeiro – Abril
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Milho
+                        </td>
+                        <td>
+                            Agosto
+                        </td>
+                        <td>
+                            Dezembro – Junho
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Soja
+                        </td>
+                        <td>
+                            Setembro
+                        </td>
+                        <td>
+                            Janeiro – Maio
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Tomate
+                        </td>
+                        <td>
+                            Agosto
+                        </td>
+                        <td>
+                            ***
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Trigo
+                        </td>
+                        <td>
+                            Maio
+                        </td>
+                        <td>
+                            Setembro – Dezembro
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Uva
+                        </td>
+                        <td>
+                            Julho
+                        </td>
+                        <td>
+                            Outubro – Dezembro
+                        </td>
+                    </tr>
+                    </tr>
+                </table>
+
+                <h2>Região Sudeste</h2>
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>
+                                Cultivo
+                            </th>
+                            <th>
+                                Plantio
+                            </th>
+                            <th>
+                                Colheita
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                                Algodão
+                            </td>
+                            <td>
+                                Outubro
+                            </td>
+                            <td>
+                                Março – Julho
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Alho
+                            </td>
+                            <td>
+                                Março
+                            </td>
+                            <td>
+                                3 a 4 meses depois
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Ameixa
+                            </td>
+                            <td>
+                                Julho
+                            </td>
+                            <td>
+                                ***
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Amendoim
+                            </td>
+                            <td>
+                                Setembro
+                            </td>
+                            <td>
+                                Dezembro – Março
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Banana
+                            </td>
+                            <td>
+                                O ano inteiro
+                            </td>
+                            <td>
+                                Um ano depois
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Batata
+                            </td>
+                            <td>
+                                Abril
+                            </td>
+                            <td>
+                                3 a 4 meses depois
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Café
+                            </td>
+                            <td>
+                                Outubro
+                            </td>
+                            <td>
+                                Abril – Setembro
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Cana de açúcar
+                            </td>
+                            <td>
+                                Outubro
+                            </td>
+                            <td>
+                                Abril – Setembro
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Cebola
+                            </td>
+                            <td>
+                                Fevereiro
+                            </td>
+                            <td>
+                                4 a 6 meses depois
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Cítricos
+                            </td>
+                            <td>
+                                Outubro
+                            </td>
+                            <td>
+                                Todo o ano
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Feijão
+                            </td>
+                            <td>
+                                Outubro
+                            </td>
+                            <td>
+                                Janeiro – Abril
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Mandioca
+                            </td>
+                            <td>
+                                Setembro
+                            </td>
+                            <td>
+                                Março – Julho
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Milho
+                            </td>
+                            <td>
+                                Outubro
+                            </td>
+                            <td>
+                                Janeiro – Junho
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Pêssego
+                            </td>
+                            <td>
+                                Julho
+                            </td>
+                            <td>
+                                ***
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Tomate
+                            </td>
+                            <td>
+                                Agosto
+                            </td>
+                            <td>
+                                ***
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Uva
+                            </td>
+                            <td>
+                                Julho
+                            </td>
+                            <td>
+                                Outubro – Dezembro
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h2>Região Nordeste</h2>
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>
+                                Cultivo
+                            </th>
+                            <th>
+                                Plantio
+                            </th>
+                            <th>
+                                Colheita
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                                Algodão
+                            </td>
+                            <td>
+                                Janeiro
+                            </td>
+                            <td>
+                                Junho – Dezembro
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Amendoim
+                            </td>
+                            <td>
+                                Março
+                            </td>
+                            <td>
+                                Maio – Agosto
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Arroz
+                            </td>
+                            <td>
+                                Outubro
+                            </td>
+                            <td>
+                                Janeiro – Abril
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Cacau
+                            </td>
+                            <td>
+                                Início da chuva
+                            </td>
+                            <td>
+                                Fevereiro – Maio
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Cana de açúcar
+                            </td>
+                            <td>
+                                Setembro
+                            </td>
+                            <td>
+                                Novembro – Abril
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Coco
+                            </td>
+                            <td>
+                                Início da chuva
+                            </td>
+                            <td>
+                                6 meses depois
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Feijão
+                            </td>
+                            <td>
+                                Outubro
+                            </td>
+                            <td>
+                                Janeiro – Abril
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Fumo
+                            </td>
+                            <td>
+                                Agosto
+                            </td>
+                            <td>
+                                Dezembro – Fevereiro
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Mandioca
+                            </td>
+                            <td>
+                                Março
+                            </td>
+                            <td>
+                                Junho – Outubro
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Manga
+                            </td>
+                            <td>
+                                Fevereiro
+                            </td>
+                            <td>
+                                Janeiro – Dezembro
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Milho
+                            </td>
+                            <td>
+                                Outubro
+                            </td>
+                            <td>
+                                Fevereiro – Junho
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Soja
+                            </td>
+                            <td>
+                                Outubro
+                            </td>
+                            <td>
+                                Fevereiro – Maio
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Uva
+                            </td>
+                            <td>
+                                Dezembro
+                            </td>
+                            <td>
+                                Dezembro – Março
+                                Junho – Julho
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h2>Região Norte</h2>
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>
+                                Cultivo
+                            </th>
+                            <th>
+                                Plantio
+                            </th>
+                            <th>
+                                Colheita
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                                Arroz
+                            </td>
+                            <td>
+                                Outubro
+                            </td>
+                            <td>
+                                ***
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Coco
+                            </td>
+                            <td>
+                                Início da chuva
+                            </td>
+                            <td>
+                                6 meses depois
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Guaraná
+                            </td>
+                            <td>
+                                Janeiro
+                            </td>
+                            <td>
+                                Novembro – Dezembro
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Mandioca
+                            </td>
+                            <td>
+                                Setembro
+                            </td>
+                            <td>
+                                Março – Julho
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Maracujá
+                            </td>
+                            <td>
+                                Todo o ano
+                            </td>
+                            <td>
+                                Um ano depois
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Milho
+                            </td>
+                            <td>
+                                Agosto
+                            </td>
+                            <td>
+                                ***
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h2>Região Centro-Oeste</h2>
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>
+                                Cultivo
+                            </th>
+                            <th>
+                                Plantio
+                            </th>
+                            <th>
+                                Colheita
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                                Algodão
+                            </td>
+                            <td>
+                                Novembro
+                            </td>
+                            <td>
+                                Abril – Junho
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Amendoim
+                            </td>
+                            <td>
+                                Novembro
+                            </td>
+                            <td>
+                                Março a Abril
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Arroz
+                            </td>
+                            <td>
+                                Setembro
+                            </td>
+                            <td>
+                                Janeiro – Abril
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Cana de açúcar
+                            </td>
+                            <td>
+                                Outubro
+                            </td>
+                            <td>
+                                Abril – Dezembro
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Mandioca
+                            </td>
+                            <td>
+                                Setembro
+                            </td>
+                            <td>
+                                Março – Agosto
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Milho
+                            </td>
+                            <td>
+                                Outubro
+                            </td>
+                            <td>
+                                Fevereiro – Junho
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Soja
+                            </td>
+                            <td>
+                                Outubro
+                            </td>
+                            <td>
+                                Janeiro – Maio
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Tomate
+                            </td>
+                            <td>
+                                Fevereiro
+                            </td>
+                            <td>
+                                Abril – Outubro
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+            <p>*** Colheita de data indeterminada. Depende de fatores externos como luminosidade, irrigação e clima
+                correto.</p>
+            <p></p>
+            <div id="calendarioLunar">
+                <h1>Calendário lunar</h1>
+                <p>O calendário lunar é baseado no conceito de fases da lua, como: cheia, minguante, nova e crescente.
+                    Conhecer e respeitar os ciclos lunares é de extrema importância, logo que faz parte do ritmo da
+                    natureza e traz diversos benefícios à plantação, como menor presença de pragas e doenças.<br><br>
+                    Cada fase da lua tem um período de duração aproximado de sete dias, ou seja, o ciclo lunar se
+                    renova de mês em mês. Assim podemos nos organizar e prever quanto as mudanças que cada uma causa. A
+                    força da gravidade da lua induz a movimentação da seiva das plantas e, desse modo, dependendo das
+                    características de cada uma, cada fase é propícia para uma ação diferente.
+                </p>
+                <p>
+                    Quanto as fases, observa-se:<br><br>
+                <ul>
+                    <li>
+                        <strong>Minguante:</strong> quando a lua se encontra nesta fase, sua força exercida na terra é
+                        menor, fazendo
+                        com que a seiva desca. Assim raízes e plantas como cenoura, batata, gengibre e mandioca tem um
+                        maior
+                        desenvolvimento, logo é um período favorável para esse tipo de plantio.<br><br>
+                    </li>
+                    <li>
+                        <strong>Lua Nova:</strong> fase na qual a seiva se torna mais presente nos caules e ramos. Sendo
+                        assim, plantas com
+                        bastante folhas ganham destaque, como o repolho, salsinhas e espinafre.<br><br>
+                    </li>
+                    <li>
+                        <strong>Lua Crescente:</strong> é a melhor fase para o cultivo de plantas que crescem para fora
+                        da terra por a
+                        seiva estar distribuida por quase toda a estrutura da planta. Frutos e grãos como tomates,
+                        trigo,
+                        soja e milho tem um ótimo desenvolvimento nesta fase, sendo indicado seu plantio nesta
+                        fase.<br><br>
+                    </li>
+                    <li>
+                        <strong>Lua Cheia:</strong> é o momento que a lua exerce mais influência nas plantas, mas é
+                        importante dizer que
+                        isso se dá principalmente nos primeiros dias da fase. Alface, couve-flor e repolho são
+                        hortaliças
+                        que se dão muito bem neste período, assim como flores em geral, causado pela seiva presente na
+                        coa
+                        das plantas.<br><br>
+                    </li>
+                </ul>
+                </p>
+            </div>
+            <div id="culturas">
+                <h1>Tipos de plantio, irrigação e adubos</h1>
+                <p>Para facilitar a vida do produtor agrícola, abaixo preparamos tabelas completas com indicação de
+                    preparos para o plantio de diversas culturas. Confira.</p>
+
+                <div id="tabelas">
+                    <p>
+                        Calendários de plantio são baseados no conceito de regiões, como: norte, nordeste, sul, sudeste
+                        e
+                        centro-oeste, ele tem como função facilitar a interpretação do melhor tipo de semente a ser
+                        plantado
+                        em cada região.
+                        No quesito de plantio agrícola temos as seguintes informações sobre o plantio de verduras e seus
+                        respectivos meses de plantio, bem como a quantidade de água que deve ser utilizada e o tipo de
+                        adubo
+                        que tem mais eficiência.
+
+                        Todos deveram ser regados no período da manhã ou da tarde.
+                    <ul>
+                        <li>
+                            <strong>Abobora:</strong> regadas frequentes com adubo orgânico no período da tarde ou da
+                            manhã.
+                        </li>
+                        <li>
+                            <strong>Abobrinha:</strong> regas frequentes com adubo equilibrado no período da tarde ou da
+                            manhã.
+                        </li>
+                        <li>
+                            <strong>Agrião:</strong> regadas equilibradas adubos balanceado no período da tarde ou da
+                            manhã.
+                        </li>
+                        <li>
+                            <strong>Alface:</strong> precisa ser regado frequentemente e precisa de adubo orgânico.
+                        </li>
+                        <li>
+                            <strong>Batata doce:</strong> regadas moderadas com adubo rico em K no período da manhã ou
+                            da
+                            tarde.
+                        </li>
+                        <li>
+                            <strong>Berinjela:</strong> regadas moderadas com adubo rico em P no período da manhã ou
+                            tarde.
+                        </li>
+                        <li>
+                            <strong>Beterraba:</strong> regas moderadas com adubo orgânico.
+                        </li>
+                        <li>
+                            <strong>Brócolis:</strong> regas moderadas com adubo rico em N no período da tarde ou da
+                            manhã.
+                        </li>
+                        <li>
+                            <strong>Cebolinha:</strong> regadas moderadas com adubo equilibrado no período da manhã ou
+                            da
+                            tarde
+                        </li>
+                        <li>
+                            <strong>Cenoura:</strong> regadas moderadas e adubo balanceado no período da manhã ou da
+                            tarde.
+                        </li>
+                        <li>
+                            <strong>Cebola:</strong> regadas moderadas com adubo equilibrado no período da tarde ou da
+                            manhã
+                        </li>
+                        <li>
+                            <strong>Chuchu:</strong> regas moderadas com adubo balanceado no período da manhã ou tarde.
+                        </li>
+                        <li>
+                            <strong>Couve-flor:</strong> Regas Moderadas com adubo equilibrado no período da manhã ou
+                            tarde.
+                        </li>
+                        <li>
+                            <strong>Ervilha:</strong> regadas moderadas com adubo equilibrado no período da tarde ou
+                            manhã.
+                        </li>
+                        <li>
+                            <strong>Espinafre:</strong> regadas frequente com adubo rico em N manhã ou tarde.
+                        </li>
+                        <li>
+                            <strong>Feijão:</strong> regas moderadas e adubo nitrogenado.
+                        </li>
+                        <li>
+                            <strong>Melancia:</strong> regas abundantes com adubo orgânico no período da manhã ou da
+                            tarde.
+                        </li>
+                        <li>
+                            <strong>Milho:</strong> Regas frequentes com adubo orgânico no período da manhã ou tarde.
+                        </li>
+                        <li>
+                            <strong>Pepino:</strong> regas frequentes com adubo equilibrado no período da manhã ou da
+                            tarde.
+                        </li>
+                        <li>
+                            <strong>Pimentão:</strong> regadas moderadas com adubo balanceado no período da tarde ou
+                            manhã.
+                        </li>
+                        <li>
+                            <strong>Tomate:</strong> regadas frequentes com adubo rico em K no período da manhã ou no
+                            final
+                            da tarde.
+                        </li>
+                        <li>
+                            <strong>Repolho:</strong> regadas moderadas com adubo balanceado no período da manhã ou no
+                            final
+                            da tarde.
+                        </li>
+                        <li>
+                            <strong>Mandioca:</strong> regadas moderadas com adubo balanceado no período da tarde ou da
+                            manhã.
+                        </li>
+                        <li>
+                            <strong>Morango:</strong> regadas moderadas com adubo equilibrado no período da manhã ou no
+                            final da tarde.
+                        </li>
+                        <li>
+                            <strong>Pimenta:</strong> regadas moderadas com adubo rico em P no período da tarde ou da
+                            manhã.
+                        </li>
+                        <li>
+                            <strong>Rúcula:</strong> regadas moderadas com adubo rico em K no período da manhã ou da
+                            tarde.
+                        </li>
+                        <li>
+                            <strong>Salsa:</strong> regadas moderadas com adubo balanceado no período da manhã ou da
+                            tarde.
+                        </li>
+                    </ul>
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <h4>Trabalho de Conclusão de semestre de Ciências da Computação</h4>
+        <p>Participantes:</p>
+        <ul>
+            <li>Nicolas</li>
+            <li>Alef</li>
+            <li>Henrique</li>
+            <li>Eduardo</li>
+            <li>Mayvon</li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>
